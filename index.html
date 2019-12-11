@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lilita+One|Quicksand&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="css/app.css">
+    <title>CampUs</title>
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <a href="#showcase" class="navbar-brand">
+            <span>Camp<i class="fas fa-fire" id="logo"></i>s</span>
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#showcase" class="nav-link mr-3">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#icons" class="nav-link mr-3">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#explore" class="nav-link mr-3">Explore</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#newsletter" class="nav-link mr-3">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="modal" data-target="#bookingModal">Book now!</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="showcase" class="d-flex justify-item-center align-items-center"> <!-- SHOWCASE SECTION -->
+        <div id="overlay"></div>
+        <div class="container text-white text-center" id="header">
+            <span id="bigLogo">
+                <h1 class="display-1">CampUs</h1>
+            </span>
+            <p class="lead d-none d-md-block">The camp you have always dreamed of.</p>
+            <button id="book" class="btn btn-primary btn-lg px-5" data-toggle="modal" data-target="#bookingModal">BOOK NOW</button>
+        </div>
+    </section>
+
+    <section>
+        <div id="icons" class="container text-center mt-5">
+            <h2>You show up. We pitch the tent.</h2>
+            <div class="row">
+                <div class="col-md-4 p-5">
+                    <img src="img/icons/tent.png" alt="" class="img-fluid d-none d-md-inline" style="width:100px">
+                    <h3 class="mt-3">Amenities You Want</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia nulla cumque magni repudiandae esse veritatis excepturi aliquam, fuga modi totam?</p>
+                </div>
+                <div class="col-md-4 p-5">
+                    <img src="img/icons/picnic.png" alt="" class="img-fluid d-none d-md-inline" style="width:100px">
+                    <h3 class="mt-3">The Food You Crave</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia nulla cumque magni repudiandae esse veritatis excepturi aliquam, fuga modi totam?</p>
+                </div>
+                <div class="col-md-4 p-5">
+                    <img src="img/icons/mountain.png" alt="" class="img-fluid d-none d-md-inline" style="width:100px">
+                    <h3 class="mt-3">The Nature You Need</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia nulla cumque magni repudiandae esse veritatis excepturi aliquam, fuga modi totam?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="explore">
+        <div class="container text-center mt-2 p-3">
+            <h2 class="mb-4">Camping experience that is turn-key and hassle free.</h2>
+            <div class="row m-2">
+                <div class="col-md-6 p-3">
+                    <div class="card">
+                        <img src="img/gallery/img21.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title text-primary">Experience</h2>
+                            <p class="card-text">Our outdoor fun experts will provide you an experience you will remember forever.</p>
+                            <a href="" class="btn btn-lg btn-outline-primary">I want to experience</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-3">
+                    <div class="card">
+                        <img src="img/gallery/img9.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title text-primary">Explore</h2>
+                            <p class="card-text">Get to places you have never been to. Get lost in the pure nature without worrying about getting lost.</p>
+                            <a href="" class="btn btn-lg btn-outline-primary">I want to explore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quotes">
+        <div class="container text-center mt-5">
+            <h2>Join our happy campers!</h2>
+            <div class="row mt-5">
+                <div class="col-md-4 my-2">
+                    <i class="fas fa-quote-left text-primary fa-2x mb-3"></i>
+                    <blockquote class="blockquote">
+                        <p class="mb-0">Camping with CampUs was the best decision of my life. Real life camping experience I will never forget.</p>
+                        <footer class="blockquote-footer">Mark Twain</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4 my-2">
+                    <i class="fas fa-quote-left text-primary mb-3 fa-2x"></i>
+                    <blockquote class="blockquote">
+                        <p class="mb-0">I have camped with CampUs three times the last two years. It also has been a life changing experience.</p>
+                        <footer class="blockquote-footer">Sarah B. Morgan</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4 my-2">
+                    <i class="fas fa-quote-left text-primary mb-3 fa-2x"></i>
+                    <blockquote class="blockquote">
+                        <p class="mb-0">Skilled and fun team! I enjoyed every minute of my camping experience. Lot of fun activities for families, too!</p>
+                        <footer class="blockquote-footer">Jennifer Bowden</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="carousel slide" data-ride="carousel" id="mainCarousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/slider/img18.jpg" alt="" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slider/img13.jpg" alt="" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slider/img10.jpg" alt="" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slider/img19.jpg" alt="" class="d-block w-100">
+                            </div>
+                        </div>
+                        <a href="#mainCarousel" class="carousel-control-prev" data-slide="prev" role="button">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a href="#mainCarousel" class="carousel-control-next" data-slide="next" role="button">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <h2>Camping made cozy</h2>
+                    <p class="lead">Warmth and coziness may not be one of the first things you think about when it comes to camping, especially if it happens in the winter months.
+                        We like breaking rules - and this way we provide you the happiest and coziest camping experience you could ever imagine!
+                        With the right equipment - that we always provide to our happy campers - you will not feel cold nor lonely.
+                    </p>
+                    <a href="">See for yourself <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container text-center mt-5">
+            <h2>Camp with us on Social Media</h2>
+            <h5 class="text-primary">#CampUsCamper</h5>
+            <div class="row mt-4">
+                <div class="col-6 col-lg-3 mb-4">
+                    <img src="img/gallery/social1.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img src="img/gallery/social2.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img src="img/gallery/social3.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img src="img/gallery/social4.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img src="img/gallery/social5.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img src="img/gallery/social6.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img src="img/gallery/social7.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img src="img/gallery/social8.png" alt="" class="img-fluid">
+                </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="quote">
+        <div class="container text-center mt-4">
+            <i class="fas fa-quote-left text-primary fa-2x mb-3"></i>
+            <blockquote class="blockquote">
+                <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, autem? Facere sunt consectetur at ea tempora ipsam similique voluptates quaerat esse eius dolor ipsa incidunt nisi labore facilis, sequi non nostrum perspiciatis distinctio a error. Error possimus tenetur dolorem nulla.</p>
+                <footer class="blockquote-footer">Jone Smith</footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="newsletter" class="bg-dark">
+        <div class="container text-white text-center py-5">
+            <p class="lead">Join our newsletter for deals and updates!</p>
+            <div class="row justify-content-center">
+                <div class="col-10 col-sm-8 col-md-6 col-lg-4">
+                <form action="" class="form-inline">
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="" id="" placeholder="Your Email">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary">Join Now</button>
+                        </div>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer" class="bg-secondary">
+        <ul class="nav text-center justify-content-center flex-column flex-sm-row">
+            <li class="nav-item">
+                <a href="" class="nav-link text-white">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a href="#explore" class="nav-link text-white">Experience</a>
+            </li>
+            <li class="nav-item">
+                <a href="#explore" class="nav-link text-white">Explore</a>
+            </li>
+            <li class="nav-item">
+                <a href="#newsletter" class="nav-link text-white">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a href="#bookingModal" class="nav-link text-white" data-toggle="modal" data-target="#bookingModal">Book now!</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- BOOK NOW MODAL -->
+    <div class="modal" tabindex="-1" role="dialog" id="bookingModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title">NEW BOOKING</h5>
+                    <button type="button" class="close text-white" data-dismiss="modal" aria-label="close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Please fill out this form to get your personal offer!</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="adults">Number of adults</label>
+                            <select class="form-control" id="adults">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="children">Number of children</label>
+                            <select class="form-control" id="children">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="requests">Additional requests</label>
+                            <textarea id="requests" rows="2" class="form-control"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Submit request</button>
+                    <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
